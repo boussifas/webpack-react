@@ -7,11 +7,12 @@ pipeline {
             }
         }
 
-        stage("test") {
-            steps {
-                sh 'npm test'
-            }
-        }
+        // stage("test") {
+        //     steps {
+                
+        //         sh 'npm test'
+        //     }
+        // }
 
         stage("deploy") {
             steps{
