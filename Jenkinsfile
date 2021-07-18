@@ -3,8 +3,11 @@ pipeline {
     stages {
         stage("build") {
             steps {
-                echo "build step"
-                sh 'npm install'
+                echo "install dependencies"
+                sh 'sudo  apt update'
+                sh 'sudo apt install npm'
+
+                //sh 'npm install'
             }
         }
 
