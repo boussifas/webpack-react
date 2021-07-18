@@ -78,7 +78,6 @@ function App() {
           </GridListTile>
         ))}
       </GridList> 
-  
     </div>
     </div>
   );
